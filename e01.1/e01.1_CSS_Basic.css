@@ -1,0 +1,199 @@
+        body {
+            margin: 0 auto;
+            position: relative;
+            max-width: 1000px;
+            font-family: Verdana;
+            font-size: 13px;
+            box-sizing: border-box;
+        }
+        
+        #header {
+            height: 120px;
+            background-color: #210439;
+            border-bottom-style: solid;
+        }
+        
+        #logoHeader {
+            position: relative;
+            background-image: url('img/logo.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 500px;
+            height: 120px;
+            float: left;
+        }
+        
+        #textoHeader {
+            height: 120px;
+            width: 500px;
+            position: relative;
+            float: left;
+            color: white;
+            text-align: left;
+        }
+        
+        #subtitulo {
+            margin-left: 40px;
+        }
+        
+        #menu {
+            box-sizing: border-box;
+            height: 50px;
+        }
+        
+        ul {
+            height: 100%;
+            float: left;
+            list-style-type: none;
+            width: 1000px;
+            color: white;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            box-sizing: border-box;
+            height: 50px;
+            margin-right: 2px;
+            background-color: #9376ac;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+            font-size: 130%;
+            float: left;
+            position: static;
+        }
+        
+        #pattern {
+            box-sizing: border-box;
+            position: static;
+            width: 1000px;
+            height: 100px;
+            background-image: url("img/pattern.jpg");
+            border-top-style: dotted;
+            border-bottom-style: dotted;
+        }
+        
+        #divimagen {
+            box-sizing: border-box;
+            border-bottom-style: dotted;
+            height: 300px;
+            width: 1000px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #imagen {
+            height: auto;
+            width: 1000px;
+            position: absolute;
+            top: -100%;
+            bottom: -100%;
+            margin: auto;
+        }
+        
+        #divtabla {
+            border-bottom-style: dotted;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: #dcdcdc;
+            height: 250px;
+        }
+        
+        #tabla {
+            border-collapse: collapse;
+            height: 130px;
+            width: 500px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        
+        th {
+            font-size: 150%;
+            font-weight: bold;
+            background-color: #704c8f;
+            color: black;
+            border-bottom: 5px solid black;
+        }
+        
+        td {
+            padding: 7px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #808080;
+        }
+        
+        #grades {
+            box-sizing: border-box;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            margin: auto;
+            position: relative;
+            text-decoration: underline;
+        }
+        
+        #lenguajes {
+            box-sizing: border-box;
+            height: 300px;
+            border-bottom-style: dotted;
+        }
+        
+        #imagenytexto {
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            margin: 0;
+            width: 250px;
+            height: 300px;
+            float: left;
+            box-sizing: border-box;
+            border-left: 1px solid black;
+        }
+        
+        #imagenytexto2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+            margin: 0;
+            width: 250px;
+            height: 300px;
+            float: left;
+            box-sizing: border-box;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        
+        #imagenlenguaje {
+            box-sizing: border-box;
+            padding-top: 10px;
+            width: 250px;
+            height: auto;
+        }
+        
+        #eliminarpadding {
+            padding-top: 10px;
+            margin: 0;
+        }
+        
+        #footer {
+            position: relative;
+            box-sizing: border-box;
+            height: 100px;
+            background-color: #210439;
+        }
+        
+        #span1 {
+            top: 10%;
+            left: 1%;
+            position: absolute;
+            color: white;
+        }
+        
+        #span2 {
+            bottom: 10%;
+            right: 1%;
+            position: absolute;
+            color: white;
+        }
